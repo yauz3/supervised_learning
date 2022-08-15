@@ -138,13 +138,6 @@ from sklearn.preprocessing import FunctionTransformer
 from copy import copy
 from sklearn.preprocessing import RobustScaler
 
-#david codes
-"""
-dataframe["predicted_probability"] = model.predict_proba(*test data*)
-top_ranked_box = dataframe["predicted_probability"].argmax()
-top_ranked_box_label = dataframe.iloc[top_ranked_box]["label"]
-"""
-
 
 #training
 filename="train_with_gap.csv"
